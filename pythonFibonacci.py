@@ -1,8 +1,6 @@
 import json
 
 def lambda_handler(event, context):
-    #var input = 3;
-    #return 0;
     return getFibonacci(event.get("item"));
 	#return result;
   
